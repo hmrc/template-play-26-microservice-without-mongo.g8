@@ -8,7 +8,7 @@ How to create a new project based on the template?
 * Decide your service name (the hardest part :))
 * Run the command
 
-    `g8 hmrc/template-play-26-microservice-without-mongo.g8 --servicename="New Shiny Service" --serviceTargetPort="9999"`
+    `g8 hmrc/template-play-26-microservice-without-mongo.g8 --servicename="New Shiny Service" --package="uk.gov.hmrc.newshinyservice" --serviceTargetPort="9999"`
     
 and then
     

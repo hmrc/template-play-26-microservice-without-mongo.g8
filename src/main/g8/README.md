@@ -1,6 +1,4 @@
-# $servicename$ With Mongodb
-
-[ ![Download](https://api.bintray.com/packages/hmrc/releases/$servicenameHyphen$/images/download.svg) ](https://bintray.com/hmrc/releases/$servicenameHyphen$/_latestVersion)
+# $servicename$
 
 ## Running the tests
 
@@ -12,8 +10,8 @@
 
 ## Running the app locally
 
-    sm --start AGENTS_STUBS New_Shiny_Service -f
-    sm --stop New_Shiny_Service
+    sm --start AGENTS_STUBS $servicenameSnake$ -f
+    sm --stop $servicenameSnake$
     sbt run
 
 It should then be listening on port $serviceTargetPort$
