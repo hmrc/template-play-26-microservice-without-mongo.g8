@@ -8,7 +8,7 @@ How to create a new project based on the template?
 * Decide your service name (the hardest part :))
 * Run the command
 
-    `g8 hmrc/template-play-26-microservice-without-mongo.g8 --servicename="New Shiny Service" --package="uk.gov.hmrc.newshinyservice" --serviceTargetPort="9999"`
+    `g8 hmrc/template-play-26-microservice-without-mongo.g8 --servicename="New Shiny Service" --serviceTargetPort="9999" --package="uk.gov.hmrc.newshinyservice"`
     
 and then
     
@@ -126,14 +126,17 @@ and produce the folders and files as shown below:
 	│                       ├── JsonMatchers.scala
 	│                       ├── MetricsTestSupport.scala
 	│                       ├── ServerBaseISpec.scala
+	│                       ├── TestApplication.scala
 	│                       ├── WireMockSupport.scala
 	│                       └── WSResponseMatchers.scala
 	│
+	├── LICENSE
 	├── project
 	│   ├── build.properties
 	│   └── plugins.sbt
 	│
 	├── README.md
+	├── repository.yaml
 	└── test
 	    └── uk
 	        └── gov
